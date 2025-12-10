@@ -45,15 +45,20 @@ A responsive web-based Rock-Paper-Scissors game built with Python Flask backend 
 
 ## Project Structure
 
-rock-paper-scissors/
-├── app.py                # Flask application
-├── static/
-│   ├── script.js         # Frontend JavaScript
-│   ├── style.css         # Styling
-│   └── images/           # Game assets
-└── templates/
-    └── index.html        # Main HTML template
+- **rock-paper-scissors/**
+  - `app.py` — Flask application
+  - **static/**
+    - `script.js` — Frontend JavaScript
+    - `style.css` — Styling
+    - **images/** — Game assets
+  - **templates/**
+    - `index.html` — Main HTML template
 
+## Output Screenshot
+
+<img width="694" height="534" alt="image" src="https://github.com/user-attachments/assets/66577658-f073-400e-a888-364c4aa7c977" />
+<img width="654" height="478" alt="image" src="https://github.com/user-attachments/assets/dcfb2a02-80b6-42b4-935a-585e5a76468c" />
+<img width="632" height="502" alt="image" src="https://github.com/user-attachments/assets/e45faa22-3e58-46ae-89b5-b3f4d03da02d" />
 
 
 ## How to Play
