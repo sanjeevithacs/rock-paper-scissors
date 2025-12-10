@@ -27,8 +27,9 @@ A responsive web-based Rock-Paper-Scissors game built with Python Flask backend 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/rock-paper-scissors.git](https://github.com/yourusername/rock-paper-scissors.git)
+   git clone https://github.com/sanjeevithacs/rock-paper-scissors.git
    cd rock-paper-scissors
+
 
 2. Install dependencies:
    ```bash
