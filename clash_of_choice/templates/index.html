@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Game | Rock Paper Scissors</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <audio id="backgroundMusic" src="/static/background-music.mp3" loop autoplay></audio>
+<section class="container">
+    <div class="result_field">
+        <div class="result_images">
+            <span class="user_result">
+                <img src="{{ url_for('static', filename='images/rock.png') }}" alt=" " />
+            </span> 
+            <span class="cpu_result">
+                <img src="{{ url_for('static', filename='images/rock.png') }}" alt=" " />
+            </span>
+        </div>
+        <div class="result">Let's play!</div>
+    </div>
+    <div class="option_images">
+        <span class="option_image" onclick="playGame('rock', this)">
+            <img src="{{ url_for('static', filename='images/rock.png') }}" alt="Rock" />  
+            <p>Rock</p> 
+        </span>
+        <span class="option_image" onclick="playGame('paper', this)">
+            <img src="{{ url_for('static', filename='images/paper.png') }}" alt="Paper" />  
+            <p>Paper</p> 
+        </span>
+        <span class="option_image" onclick="playGame('scissors', this)">
+            <img src="{{ url_for('static', filename='images/scissors.png') }}" alt="Scissors" />  
+            <p>Scissors</p> 
+        </span>
+    </div>
+</section>
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
